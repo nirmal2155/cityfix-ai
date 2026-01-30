@@ -6,6 +6,10 @@ function generateComplaint() {
     return;
   }
 
+  // 🔮 Future Integration with Google Gemini API:
+  // This text will be sent to Gemini AI for smart understanding,
+  // classification of civic issue type, and automated department routing.
+
   let complaint = `Dear City Authority,
 
 I would like to report the following civic issue: ${problem}.
